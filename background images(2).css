@@ -1,0 +1,33 @@
+h1{
+  background-image:url(image\ plain..jpg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100px;
+}
+
+p{
+  background-image:url(image\ plain\ \(2\).webp);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100px;
+}
+pre{
+  background-image:url(image\ plain\ \(3\).webp);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100px;
+}
+h2{
+  background-image:url(image\ plain\ \(4\).jpg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100px;
+}

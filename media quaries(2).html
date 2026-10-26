@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hey{
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+        }
+        .hey{
+            background-color: aqua;
+            padding: 50px;
+            font-size: 50px;
+            border: dashed 3px rgb(37, 19, 19);
+            border-radius: 3px;
+        }
+        .a{
+         background-color: rgb(255, 255, 255);
+         border: solid 3px black;
+         height:80px ;
+         width: 120px;
+         padding: 20px;
+        }
+        .b{
+         background-color: rgb(255, 255, 255);
+         border: solid 3px black;
+         height:80px ;
+         width: 140px;
+         padding: 20px;
+        }
+        .c{
+         background-color: rgb(255, 255, 255);
+         border: solid 3px black;
+         height:80px ;
+         width: 120px;
+         padding: 20px;
+        }
+        /* mobile screening */
+        @media(max-width:650px){
+         .hey{
+            flex-direction: column;
+            align-items: center;
+         }   
+        }
+    </style>
+</head>
+<body>
+    <div class="hey">
+        <div class="a">home</div>
+        <div class="b">content</div>
+        <div class="c">about</div>
+    </div>
+    
+</body>
+</html>
